@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rtu</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="FINAL/logo.png" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="room.html">ROOMS</a></li>
+                    <li><a href="forum.html">FORUM</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav> 
+        <div class="room-box">
+            <h1> MotionLit Virtual Hall</h1>
+        </div>                               
+       
+    </section>     
+
+    <!------ about us content ------>
+
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>Welcome!</h1>
+                <p>This is the MotionLit Virtual Hall. Where you can enter the two virtual classrooms such as the Dance room and Sports room. These classes offer optimal knowledge in motor learning in physical education in dance and sports. You can enter anytime, anywhere! Have deep learning ahead!</p>
+            </div>
+            <div class="about-col">
+                <img src="FINAL/classroom1.PNG">
+            </div>
+        </div>
+
+    </section>
+<!-- ----- rooms ------->
+<section class="rooms">
+    <h1> Virtual Classrooms</h1>
+    <P>You can now choose among these two available classes you are interested in. Enjoy! </P>
+    <div class="row">
+        <div class="rooms-col">
+            <img src="FINAL/dance1.jpg">
+            <a href="Dance.html" class="hero-btn red-btn" target="_blank">DANCE ROOM</a>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero doloribus fugit soluta molestias earum nam commodi sed asperiores placeat officia, animi molestiae aliquid nihil aspernatur error unde minus quibusdam obcaecati.</P>
+        </div>
+        <div class="rooms-col">
+            <img src="FINAL/sport1.jpg">
+            <a href="Sport.html" class="hero-btn red-btn" target="_blank">SPORT ROOM</a>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, dignissimos dicta? Atque dignissimos aliquam architecto iste libero magni qui quaerat nemo? At dolorum explicabo fuga accusantium commodi maxime totam reiciendis.</P>
+        </div>
+    
+    </div>
+    
+</section> 
+
+
+    <!------ Footer ------->
+    <section class="Footer">
+        <h4>About Us</h4>
+        <p> MotionLit is a classroom-inspired website that will be operated to effectively teach the student about physical education <br>in motor learning through dance and sports by using a blended learning modality. </p>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+        <p>Made with <i class="far fa-heart"></i> by MotionLit</p>
+        
+    </section>
+        
+</body>
+<!--------JavaScript for Toggle Menu------->
+<script>
+
+    var navlinks = document.getElementById("navLinks")
+    function showMenu(){
+        navlinks.style.right = "0";
+    }
+    function hideMenu(){
+        navlinks.style.right = "-200px";
+    }
+
+</script> 
+</html>
