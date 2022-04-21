@@ -1450,6 +1450,9 @@ h3{
 .testimonials-col .far{
     color: #fb7268;
 }
+.testimonials-col .fal{
+    color: #fb7268;
+}
 @media(max-width: 800px){
     .testimonials-col img{
         margin-left: 0px;
