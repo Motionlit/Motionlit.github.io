@@ -1414,12 +1414,12 @@ h3{
     text-align: center;
 }
 .testimonials-col{
-    flex-basis: 44%;
+    flex-basis: 45%;
     border-radius: 10px;
-    margin-bottom: 5%;
+    margin-bottom: 0%;
     text-align: left;
     background: #fff3f3;
-    padding: 25px;
+    padding: 15px;
     cursor: pointer;
     display: flex;
     width: 50%;
